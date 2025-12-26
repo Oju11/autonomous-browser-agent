@@ -3,7 +3,7 @@ AI Powered Web Automation & Report Generation System
 
 This project is an AI-based Autonomous Browser Agent that can automatically open websites, search information, read content, click, navigate, extract results, and generate well-formatted PDF and Word reports — without human control.
 
-🚀 Project Objective
+ Project Objective
 
 To design and implement an AI-powered system that:
 
@@ -17,7 +17,7 @@ Summarizes useful results
 
 Generates formatted PDF & DOCX reports
 
-🎯 Key Features
+ Key Features
 
 ✔ Fully autonomous browser control
 ✔ Searches and navigates web pages
@@ -27,7 +27,7 @@ Generates formatted PDF & DOCX reports
 ✔ Supports custom user tasks
 ✔ Professional report formatting
 
-🏗 System Architecture
+ System Architecture
 
 1️⃣ User enters task
 2️⃣ AI understands requirement
@@ -45,27 +45,23 @@ Report Generation	DOCX + ReportLab
 IDE	VS Code
 OS	Windows
 📥 Installation & Setup
-1️⃣ Clone Repository
-git clone https://github.com/your-username/autonomous-browser-agent.git
-cd autonomous-browser-agent
 
-2️⃣ Create Virtual Environment
+1 Create Virtual Environment
 python -m venv .venv
 .venv\Scripts\activate
-
-3️⃣ Install Dependencies
+2 Install Dependencies
 python -m pip install -r requirements.txt
 
-4️⃣ Add API Key
+3 Add API Key
 
 Create .env file:
 
 BROWSER_USE_API_KEY=your-key-here
 
-5️⃣ Install Browser
+4 Install Browser
 python -m playwright install
 
-▶️ Run Project
+ Run Project
 python main.py
 
 
@@ -111,3 +107,4 @@ Multi-tab browsing intelligence
 Dashboard monitoring
 
 Mobile support
+
